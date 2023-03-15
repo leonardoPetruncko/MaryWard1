@@ -2,50 +2,34 @@ import images from "./images";
 
 // skills
 const skills = [
-    {
-        title: "UI/UX DESIGN",
-        value: "80%"
-    },
-    {
-        title: "WEB DEVELOPMENT",
-        value: "75%"
-    },
-    {
-        title: "APP DEVELOPMENT",
-        value: "45%"
-    },
-    {
-        title: "MARKETING",
-        value: "15%"
-    },
 ];
 
 // stats
 const stats = [
     {
         img: `${images.icon_briefcase}`,
-        value:  548,
-        title: "projects completed"
+        value:  289,
+        title: "Retiros Realizados"
     },
     {
         img: `${images.icon_clock}`,
-        value: 1465,
-        title: "working hours"
+        value: 6368,
+        title: "Horas Trabalhadas"
     },
     {
         img: `${images.icon_star_white}`,
-        value: 612,
-        title: "positive feedbacks"
+        value: 1892,
+        title: "Feedbacks Positivos"
     },
     {
         img: `${images.icon_heart}`,
-        value: 735,
-        title: "happy clients"
+        value: 1659,
+        title: "Hospedes Felizes"
     },
 ];
 
 // works
-const works = [
+const accommodation = [
   {
     img: `${images.work_1}`
   },
@@ -136,4 +120,4 @@ const testimonials = [
     }
 ];
 
-export default {skills, stats, works, services, testimonials};
+export default {skills, stats, accommodation, services, testimonials};
