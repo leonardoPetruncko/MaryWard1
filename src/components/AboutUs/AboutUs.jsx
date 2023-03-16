@@ -1,9 +1,9 @@
 import React from 'react';
-import images from "../../constants/images";
+
 import "./AboutUs.css";
 
 const AboutUs = () => (
-    <div className='about section__padding'>
+    <div id='about' className='about section__padding'>
         <div className='container'>
             <div className='about__content text__center'>
                 <h2 className='section__title text__cap'>Sobre</h2>

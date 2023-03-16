@@ -24,7 +24,7 @@ const Navbar = () => {
                             <a href = "#home" className = "nav__link text__upper fw__6 text__light nav__active">home</a>
                         </li>
                         <li className="nav__item">
-                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">Sobre</a>
+                            <a href="#about" className = "nav__link text__upper fw_6 text__light">Sobre</a>
                         </li>
                         <li className="nav__item">
                             <a href = "#work" className = "nav__link text__upper fw_6 text__light">Serviços</a>
