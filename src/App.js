@@ -3,6 +3,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Header from './components/Header/Header';
 import Stats from './components/Stats/Stats';
 import Accommodation from './components/Accommodation/Accommodation'
+import WorkProcess from './components/WorkProcess/WorkProcess';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AboutUs />
       <Stats />
       <Accommodation />
+      <WorkProcess />
     </div>
   );
 }
