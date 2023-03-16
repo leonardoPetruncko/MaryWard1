@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Stats from './components/Stats/Stats';
 import Accommodation from './components/Accommodation/Accommodation'
 import WorkProcess from './components/WorkProcess/WorkProcess';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Stats />
       <Accommodation />
       <WorkProcess />
+      <Services />
     </div>
   );
 }

@@ -1,4 +1,7 @@
 import icon_clock from "../assets/images/icon-clock.png";
+import icon_accommodation from "../assets/images/icon-accommodation.png";
+import icon_cleaning from "../assets/images/icon-cleaning.png";
+import icon_kitchen from "../assets/images/icon-kitchen.png"
 import icon_briefcase from "../assets/images/icon-briefcase.png";
 import header_bg from "../assets/images/header-bg.jpg";
 import logo from "../assets/images/logo.png";
@@ -19,10 +22,13 @@ import work_8 from "../assets/images/work-8.jpg";
 
 export default{
     icon_briefcase,
+    icon_kitchen,
     header_bg,
     logo,
     icon_clock, 
     icon_eye,
+    icon_cleaning,
+    icon_accommodation,
     icon_heart,
     icon_phone,
     icon_star,

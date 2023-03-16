@@ -60,23 +60,23 @@ const accommodation = [
 const services = [
   {
     img: `${images.icon_phone}`,
-    title: "APP / MOBILE",
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+    title: "WIFI / pc para slides",
+    text: 'Wifi pc para slides no retiro'
   },
   {
-    img: `${images.icon_phone}`,
-    title: "APP / MOBILE",
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+    img: `${images.icon_kitchen}`,
+    title: "Cozinheira",
+    text: ' cozinheira boa algo em volta disso'
   },
   {
-    img: `${images.icon_phone}`,
-    title: "APP / MOBILE",
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+    img: `${images.icon_cleaning}`,
+    title: "Limpeza",
+    text: 'Tudo limpo Sla KKKKK'
   },
   {
-    img: `${images.icon_phone}`,
-    title: "APP / MOBILE",
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+    img: `${images.icon_accommodation}`,
+    title: "Camareira",
+    text: 'deixa o quato um 10.'
   }
 
 ];
