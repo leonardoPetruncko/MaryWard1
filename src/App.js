@@ -6,6 +6,7 @@ import Accommodation from './components/Accommodation/Accommodation'
 import WorkProcess from './components/WorkProcess/WorkProcess';
 import Services from './components/Services/Services';
 import Testimonials from './components/Testimonials/Testemonials';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <WorkProcess />
       <Services />
       <Testimonials />
+      <Contact />
     </div>
   );
 }
