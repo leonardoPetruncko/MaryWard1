@@ -1,8 +1,8 @@
 .navbar{
-    padding: 3.8rem 0;
+    padding: 4.8rem 0;
 }
 .navbar__brand img{
-    width: 150px;
+    width: 130px;
 }
 .brand__and__toggler{
     align-items: center;
@@ -11,9 +11,10 @@
 }
 .navbar__collapse{
     display: none;
+    padding: 5rem;
 }
 .navbar__collapse .nav__link{
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     transition: var(--transition);
 }
 .navbar__collapse .nav__link:hover, .nav__link{
@@ -43,7 +44,6 @@ nav.shift ul li a {
     visibility: none;
     opacity: 0;
     z-index: -1;
-    padding: 1px 0px;
     border-radius: 25%;
     transition: 0.3s;
 
