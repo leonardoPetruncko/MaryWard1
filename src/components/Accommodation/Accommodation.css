@@ -1,7 +1,8 @@
-.accommodation__content--item{
+.accommodation__content--item {
     position: relative;
 }
-.accommodation__content--item::after{
+
+.accommodation__content--item::after {
     content: "";
     position: absolute;
     top: 0;
@@ -12,7 +13,8 @@
     opacity: 0;
     transition: var(--transition);
 }
-.accommodation__content--item .icon{
+
+.accommodation__content--item .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -20,43 +22,46 @@
     opacity: 0;
     transition: var(--transition);
 }
-.accommodation__content--item .icon img{
+
+.accommodation__content--item .icon img {
     width: 40px;
 }
-.accommodation__content--item:hover .icon{
+
+.accommodation__content--item:hover .icon {
     opacity: 1;
     z-index: 1;
 }
-.accommodation__content--item:hover::after{
+
+.accommodation__content--item:hover::after {
     opacity: 1;
 }
 
-@media screen and (min-width: 468px){
-    .accommodation__content{
+@media screen and (min-width: 468px) {
+    .accommodation__content {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
 
-@media screen and (min-width: 678px){
-    .accommodation__content{
+@media screen and (min-width: 678px) {
+    .accommodation__content {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (min-width: 800px){
-    .accommodation__content{
+@media screen and (min-width: 800px) {
+    .accommodation__content {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media screen and (min-width: 1200px){
-    .accommodation__content{
+@media screen and (min-width: 1200px) {
+    .accommodation__content {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-.image__modal{
+.image__modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -69,23 +74,26 @@
     opacity: 0;
 }
 
-.image__modal__show{
+.image__modal__show {
     visibility: visible;
     opacity: 1;
 }
-.image__modal--content{
+
+.image__modal--content {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 420px;
+    max-width: 430px;
     min-width: 350px;
     width: 100%;
 }
-.image__modal--content img{
+
+.image__modal--content img {
     width: 100%;
 }
-.modal__close--btn{
+
+.modal__close--btn {
     position: absolute;
     right: -15px;
     top: -15px;
@@ -93,6 +101,7 @@
     cursor: pointer;
     transition: var(--transition);
 }
-.modal__close--btn:hover{
-    color: var(--dark-color)!important;
+
+.modal__close--btn:hover {
+    color: var(--dark-color) !important;
 }

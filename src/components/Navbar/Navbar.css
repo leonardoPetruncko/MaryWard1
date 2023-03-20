@@ -20,6 +20,39 @@
     color: var(--robin-blue-color);
 }
 
+nav.shift ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  nav.shift ul li a:hover {
+    color: #91640F;
+  }
+  nav.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 35px;
+    content: '.';
+    color: transparent;
+    background: #2c6b74;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+    padding: 1px 0px;
+    border-radius: 25%;
+    transition: 0.3s;
+
+  }
+  nav.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+  }
+
 /* smallscreen */
 .navbar__smallscreen{
     position: fixed;
@@ -52,7 +85,7 @@
     padding-left: 1rem;
 }
 .navbar__smallscreen .nav__item{
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 
 @media(min-width: 578px){
