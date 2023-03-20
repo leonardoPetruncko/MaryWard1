@@ -44,7 +44,7 @@ nav.shift ul li a {
     visibility: none;
     opacity: 0;
     z-index: -1;
-    border-radius: 25%;
+    border-radius: 35%;
     transition: 0.3s;
 
   }
