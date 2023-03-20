@@ -13,8 +13,8 @@ const Header = () => (
             <div className="header__content text__center text__light flex flex__center">
                 <div className="header__content--left"></div>
                 <div className="header__content--right">
-                    <h1 className="header__title fw__6">Centro de Espiritualidade Mary Ward</h1>
-                    <p className="para__text">Localizado em Itapecerica da Serra, na Grande São Paulo. É uma ótima opção para a realização de retiros espirituais, acampamentos e eventos diversos.</p>
+                    <h1 className="header__title fw__2">Centro de Espiritualidade Mary Ward</h1>
+                    <p className="para__text fw__1">Localizado em Itapecerica da Serra, na Grande São Paulo. É uma ótima opção para a realização de retiros espirituais, acampamentos e eventos diversos.</p>
                     <a href = "#" className="btn btn__blue">Contato</a>
                 </div>
             </div>

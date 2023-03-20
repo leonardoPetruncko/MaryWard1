@@ -62,7 +62,7 @@
 /* fonts */
 .fw__2{font-weight: 200;}
 .fw__2{font-weight: 300;}
-.fw__2{font-weight: 400;}
+.fw__1{font-weight: 400;}
 .fw__2{font-weight: 500;}
 .fw__2{font-weight: 600;}
 .fw__2{font-weight: 700;}
@@ -98,13 +98,16 @@
   font-size: 1.7rem;
   font-weight: 500;
   transition: var(--transition);
+  border-radius: 4rem;
 }
 .btn__blue{
   background-color: var(--robin-blue-color);
 }
 .btn__blue:hover{
-  background-color: #000036;
+  background-color: #1a4046;
 }
+
+
 
 /* letter spacing */
 .ls__1{
