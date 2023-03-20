@@ -84,8 +84,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 430px;
-    min-width: 350px;
+    max-width: 400px;
+    min-width: 250px;
     width: 100%;
 }
 
