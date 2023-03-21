@@ -2,6 +2,7 @@ import React from "react"
 import "./WorkProcess.css"
 import WorkProcessVid from "../../assets/videos/video.mp4"
 import { ControlBar, Player, PlayToggle } from "video-react"
+import  ReactPlayer  from  'react-player'
 import 'video-react/dist/video-react.css';
 
 const WorkProcess = () => {
@@ -13,11 +14,7 @@ const WorkProcess = () => {
                     <p className="para__text"> Um espaço silencioso, com uma Exuberante Natureza. Conta com sala de palestras, sala de apoio, salas de atendimento, Capela Santíssima Trindade (com capacidade para cem pessoas) </p>
 
                     <div className="vid__container">
-                        <Player autoPlay loop src = {WorkProcessVid}>
-                            <ControlBar autoHide = {false} disableDefaultControls = {true}>
-                                <PlayToggle />
-                            </ControlBar>
-                        </Player>
+                   
                     </div>
                 </div>
             </div>
