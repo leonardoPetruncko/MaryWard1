@@ -1,5 +1,6 @@
 .services__content{
-    gap: 4rem;
+    gap: 1rem;
+    padding-bottom: 2rem;
 }
 .services__content--item{
     padding: 2rem;
