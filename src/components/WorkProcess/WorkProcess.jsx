@@ -14,7 +14,7 @@ const WorkProcess = () => {
                     <p className="para__text"> Um espaço silencioso, com uma Exuberante Natureza. Conta com sala de palestras, sala de apoio, salas de atendimento, Capela Santíssima Trindade (com capacidade para cem pessoas) </p>
 
                     <div className="vid__container">
-                   
+                    <ReactPlayer url='https://youtu.be/ysGvmQloiaA'/>
                     </div>
                 </div>
             </div>
